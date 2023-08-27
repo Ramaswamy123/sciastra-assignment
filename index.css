@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    background-color:#f5e44f;
+    align-items: center;
+}
+.team-container{
+    width:90%;
+    /* background-color: blue; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team-heading{
+    font-size:70px;
+    color:rgb(28, 8, 119);
+    font-family: "Roboto";
+}
+.team-heading::first-letter{
+    color:black;
+    font-size:90px;
+}
+.team-description{
+    color:rgb(243, 8, 39);
+    font-size:35px;
+    width:700px;
+    font-family: "Roboto";
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    margin-bottom: 80px;
+    margin-top:-20px;
+}
+.university-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap:30px;
+}
+.university-image{
+    height:140px;
+    width:100%;
+}
+/* .university-image:hover{
+    height:140px;
+    width:100%;
+    border-radius:20px;
+} */
+.universty-card{
+    height:180px;
+    width:22.5%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:30px;
+    background-color:blanchedalmond;
+    box-shadow: 1px 4px 9px -2px #0c0c0ce7;
+    padding-bottom:20px;
+    overflow:hidden;
+    cursor:pointer;
+    
+}
+.universty-card:hover{
+    border-radius:20px;
+    background-color: rgb(255, 72, 0);
+    color:white;
+}
+.universty-card-heading{
+    font-size:20px;
+    color:rgb(81, 255, 0);
+}
+.mentors-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+.mentor-section-heading{
+    font-size:60px;
+    color:rgb(15, 19, 247);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mentor-span{
+    font-size:80px;
+    color:rgb(250, 5, 25);
+}
+.mentors-container{
+    display:flex;
+    gap:85px;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    align-items: center;
+}
+.mentor-card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:17%;
+    background-color: rgb(205, 252, 245);
+    padding-top:30px;
+    height:220px;
+    border-radius:20px;
+    cursor:pointer;
+    box-shadow: 1px 4px 9px -2px #0c0c0ce7;
+}
+.mentor-image{
+    height:80px;
+    width:80px;
+    border-radius:100%;
+    box-shadow: 1px 4px 9px -2px #0c0c0ce7;
+}
+.mentor-image:hover{
+    border-radius:5px;
+}
+.mentor-name{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 8, 0);
+    font-weight:600;
+}
+.mentor-university{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(7, 65, 55);
+    margin-top:-10px;
+    text-align:center;
+    width:200px;
+}
+.mentors-and-advisor-section{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin:20px 0px 30px 0px;
+}
+.men-and-adv-heading{
+    font-size:45px;
+    text-align:left;
+    font-family:"Roboto";
+}
+.men-and-adv-heading::first-letter{
+    color:red;
+    font-size:60px;
+}
+.span{
+    color:red;
+    font-size:60px;
+}
+.mentors-advisor-container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap:220px;
+}
+.mentor-advisor-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:230px;
+    width:200px;
+    border-radius:20px;
+    background-color:transparent;
+    box-shadow: 1px 4px 9px -2px #0c0c0ce7;
+    padding:20px 10px 20px 10px;
+}
+.mentors-advisor-card-heading{
+    font-size:25px;
+    color:black;
+    font-family:"Roboto";
+}
+.mentors-advisor-card-university{
+    font-size:20px;
+    font-family:"Roboto";
+    text-align:center;
+}
+.message-button{
+    height:50px;
+    width:160px;
+    border-radius:10px;
+    border-width:0px;
+    font-size:15px;
+    background-color:rgb(186, 43, 252);
+    color:white;
+    cursor:pointer;
+    margin-top:20px;
+    box-shadow: 1px 4px 9px -2px #0c0c0ce7;
+}
+.message-button:hover{
+    
+    background-color:rgb(241, 49, 15);
+    color:rgb(29, 2, 2);
+    
+}
